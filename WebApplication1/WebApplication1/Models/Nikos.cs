@@ -7,6 +7,7 @@ namespace WebApplication1.Models
 {
     public class Nikos
     {
+        public string AnteGeia { get; set; }
         public string AnteNaDoumeTiThaDoume { get; set; }
     }
 }
