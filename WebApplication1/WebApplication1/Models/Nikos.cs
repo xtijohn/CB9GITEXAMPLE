@@ -9,5 +9,8 @@ namespace WebApplication1.Models
     {
         public string AnteGeia { get; set; }
         public string AnteNaDoumeTiThaDoume { get; set; }
+
+        public int Id { get; set; }
+        public string Property { get; set; }
     }
 }
