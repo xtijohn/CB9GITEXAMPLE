@@ -136,6 +136,10 @@
     <Compile Include="Migrations\201912201431093_Students.Designer.cs">
       <DependentUpon>201912201431093_Students.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912201457266_Gender.cs" />
+    <Compile Include="Migrations\201912201457266_Gender.Designer.cs">
+      <DependentUpon>201912201457266_Gender.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Nikos.cs" />
@@ -202,6 +206,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201912201431093_Students.resx">
       <DependentUpon>201912201431093_Students.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912201457266_Gender.resx">
+      <DependentUpon>201912201457266_Gender.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
